@@ -1,0 +1,34 @@
+import turtle
+
+t= turtle.Pen()
+t.reset()
+# filled with red
+t.fillcolor("red")
+
+# Started with fill 
+t.begin_fill()
+
+t.fd(300) # forward to east first
+
+t.lt(90) # turned left (up, North)
+t.fd(60)
+
+t.lt(90)
+t.fd(100) # turned left (toward West)
+
+t.lt(-90)
+t.fd(60) # Again, turned left (toward North)
+
+t.lt(90)
+t.fd(80) # top side, (toward West)
+
+t.lt(90)
+t.fd(30) # down, toward South
+
+t.lt(-90)
+t.fd(120) # toward West
+
+t.lt(90)
+t.fd(90) # toward South, closed the shape
+
+t.end_fill()

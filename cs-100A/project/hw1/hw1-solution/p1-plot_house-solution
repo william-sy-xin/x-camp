@@ -1,0 +1,33 @@
+import turtle
+t = turtle.Pen()
+
+
+t.reset()
+
+
+t.fillcolor("light pink")
+t.begin_fill()
+
+t.fd(50)
+t.lt(90)
+t.fd(50)
+t.lt(90)
+t.fd(50)
+t.lt(90)
+t.fd(50)
+t.lt(90)
+t.end_fill()
+t.fillcolor("red")
+t.begin_fill()
+t.lt(90)
+t.lt(360)
+t.fd(50)
+t.lt(90)
+t.fd(10)
+t.lt(230)
+t.fd(60)
+t.lt(260)
+t.fd(60)
+t.lt(230)
+t.fd(67)
+t.end_fill()
